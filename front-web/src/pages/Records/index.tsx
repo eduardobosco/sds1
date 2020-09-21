@@ -8,7 +8,7 @@ import Filters from '../../components/Filters'
 
 //conectando a api
 
-const BASE_URL = 'http://localhost:8080'
+const BASE_URL = 'https://sds1-eduardobosco.herokuapp.com';
 
 const Records = () => {
     const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
